@@ -1,0 +1,8 @@
+The file import_pb_to_tensorboard should be located at  models/research/syntaxnet/tensorflow/tensorflow/python/tools
+model_dir is the path to the file of the mopdel you want to view
+log_dir is the path to the file which containts the ckpt files
+
+
+python import_pb_to_tensorboard.py --model_dir='/home/nvidia/Downloads/ssd_mobilenet_v2_coco_2018_03_29/frozen_inference_graph.pb' --log_dir='/home/nvidia/Downloads/ssd_mobilenet_v2_coco_2018_03_29'
+
+python import_pb_to_tensorboard.py --model_dir='/home/nvidia/Downloads/mobilenet_v2_1.0_224/mobilenet_v2_1.0_224_frozen.pb' --log_dir='/home/nvidia/Downloads/mobilenet_v2_1.0_224'
